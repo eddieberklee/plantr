@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    style="@style/GodFragmentRootContainer"
+    >
+
+    <com.compscieddy.workoutfh.ui.FontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the settings god fragment"
+        />
+
+    <Space style="@style/SpaceHeight20dp"/>
+
+    <carbon.widget.LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/carbon_red_300"
+        android:gravity="center_vertical"
+        app:carbon_cornerRadius="@dimen/medium_button_corner_radius"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        >
+        <com.compscieddy.workoutfh.ui.ColorImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/ic_streamline_icon_logout_1_alternate"
+            app:customColor="@color/white"
+            />
+        <Space style="@style/SpaceWidth10dp"/>
+        <com.compscieddy.workoutfh.ui.FontTextView
+            android:id="@+id/logout_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:text="Log Out"
+            android:textColor="@color/white"
+            app:fontface="avenir_next_demibold"
+            />
+    </carbon.widget.LinearLayout>
+
+</LinearLayout>

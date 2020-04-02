@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/black</color>
+    <color name="colorPrimaryDark">@color/black</color>
+    <color name="colorAccent">@color/black</color>
+
+    <!-- Standard Colors -->
+    <color name="standard_idle_tap_area_background">@color/wtb_10</color>
+    <color name="standard_pressed_tap_area_background">@color/wtb_20</color>
+    <color name="standard_faded_text_color">@color/black_t40</color>
+
+    <color name="dialog_black_background">@color/black_t40</color>
+
+    <!-- Muted Colors -->
+    <color name="muted_red">#D29A9A</color>
+    <color name="muted_orange">#D2B29A</color>
+    <color name="muted_yellow">#D2C593</color>
+    <color name="muted_green">#AEC598</color>
+    <color name="muted_blue">#A4CBCB</color>
+    <color name="muted_purple">#B0AEC4</color>
+
+    <!--five minute journal-->
+    <color name="morning_yellow_light_fill_theme">#FFF4C5</color>
+    <color name="morning_yellow_dark_fill_theme">#84763C</color>
+    <color name="morning_yellow_wash_fill_theme">#F7E9AF</color>
+    <color name="evening_blue_light_fill_theme">#C5E3FF</color>
+    <color name="evening_blue_dark_fill_theme">#435881</color>
+    <color name="evening_blue_wash_fill_theme">#C0D9F4</color>
+
+    <!-- border theme -->
+    <color name="morning_yellow_light_border_theme">#D0AE20</color>
+    <color name="morning_yellow_dark_border_theme">#9B7D00</color>
+    <color name="morning_yellow_wash_border_theme">#FFFBEB</color>
+    <color name="evening_blue_light_border_theme">#7098DA</color>
+    <color name="evening_blue_dark_border_theme">#5272C6</color>
+    <color name="evening_blue_wash_border_theme">#EDF0F8</color>
+
+    <color name="sidebar_share_button">#AEC6FD</color>
+    <color name="sidebar_share_button_dark">#89B8E7</color>
+    <color name="sidebar_copy_button">#F6CD76</color>
+    <color name="sidebar_copy_button_dark">#E1B452</color>
+
+    <color name="sidebar_time_machine_faded_white">@color/white_t80</color>
+
+    <color name="default_number_count_badge_circle">@color/wtb_30</color>
+
+    <color name="dialog_foraday_promotion_positive">@color/settings_accent_blue</color>
+    <color name="dialog_foraday_promotion_negative">@color/black_t30</color>
+
+    <color name="delete_button">@color/black_t40</color>
+
+    <color name="daily_intentions_info_dialog_button">@color/flatui_yellow_1</color>
+
+    <!-- For the Settings Switches -->
+    <color name="action_blue_static">#31B6F6</color>
+    <color name="action_blue_pressed">#1E678B</color>
+
+    <color name="soft_black">#21242A</color>
+    <color name="dusk_primary">@color/soft_black</color>
+
+    <color name="lifetime_button_start">#F5EF92</color>
+    <color name="lifetime_button_end">#EBAB44</color>
+
+    <color name="landing_1_start">#F97F7F</color>
+    <color name="landing_1_end">#EFC38F</color>
+    <color name="landing_2_start">#80DBA2</color>
+    <color name="landing_2_end">#68BCD8</color>
+    <color name="landing_3_start">#7A83C9</color>
+    <color name="landing_3_end">#CF8AC8</color>
+
+    <color name="settings_accent_blue">#3FA2F7</color>
+    <color name="settings_accent_blue_dark">#0F64AC</color>
+    <color name="soft_red_close">@color/pastel_red</color>
+
+    <color name="entry_text_color_white">@color/white</color>
+    <color name="entry_text_color_black">@color/black_t80</color>
+    <color name="entry_text_shadow_for_white">@color/black_t15</color>
+    <color name="entry_text_shadow_for_black">@color/black_t10</color>
+
+    <color name="search_entry_text_highlight">#50FFFFFF</color>
+
+    <color name="divide_red">@color/pastel_red</color>
+    <color name="divide_orange">@color/pastel_orange</color>
+    <color name="divide_yellow">@color/pastel_yellow</color>
+    <color name="divide_green">@color/pastel_green</color>
+    <color name="divide_blue">@color/pastel_blue</color>
+    <color name="divide_darkblue">@color/pastel_darkblue</color>
+    <color name="divide_purple">@color/pastel_purple</color>
+
+    <color name="divide_red_end">@color/pastel_red</color>
+    <color name="divide_orange_end">@color/pastel_orange</color>
+    <color name="divide_yellow_end">@color/pastel_yellow</color>
+    <color name="divide_green_end">@color/pastel_green</color>
+    <color name="divide_blue_end">@color/pastel_blue</color>
+    <color name="divide_darkblue_end">@color/pastel_darkblue</color>
+    <color name="divide_purple_end">@color/pastel_purple</color>
+
+    <color name="green_backup">#31C57F</color>
+    <color name="red_restore">#F06F62</color>
+    <color name="backuprestore_blue_background">#578AE2</color>
+
+    <array name="day_of_week_colors">
+        <item>@color/monday_red</item>
+        <item>@color/tuesday_orange</item>
+        <item>@color/wednesday_yellow</item>
+        <item>@color/thursday_green</item>
+        <item>@color/friday_blue</item>
+        <item>@color/saturday_darkblue</item>
+        <item>@color/sunday_purple</item>
+        <item>@color/monday_red</item>
+    </array>
+
+    <color name="monday_red">@color/divide_red</color>
+    <color name="tuesday_orange">@color/divide_orange</color>
+    <color name="wednesday_yellow">@color/divide_yellow</color>
+    <color name="thursday_green">@color/divide_green</color>
+    <color name="friday_blue">@color/divide_blue</color>
+    <color name="saturday_darkblue">@color/divide_darkblue</color>
+    <color name="sunday_purple">@color/divide_purple</color>
+
+    <color name="back_to_today_red">#E36767</color>
+
+    <color name="entry_action_button_color">@color/white_t60</color>
+
+    <!-- ++++++++++++++++++++++++++++=   Commonly Used Colors Template   ++++++++++++++++++++++++++++ -->
+
+    <color name="white">#FFFFFFFE</color><!-- Perfect FFF for white doesn't work with ColorImageView...off by 1 error somewhere? -->
+    <color name="black">#FF000000</color>
+    <color name="transparent">#00000000</color>
+
+    <array name="pastel_colors">
+        <item>@color/pastel_red</item>
+        <item>@color/pastel_orange</item>
+        <item>@color/pastel_yellow</item>
+        <item>@color/pastel_green</item>
+        <item>@color/pastel_blue</item>
+        <item>@color/pastel_darkblue</item>
+        <item>@color/pastel_purple</item>
+    </array>
+
+    <color name="pastel_red">#F77272</color>
+    <color name="pastel_orange">#F2B56C</color>
+    <color name="pastel_yellow">#E1D860</color>
+    <color name="pastel_green">#4ADEA6</color>
+    <color name="pastel_blue">#58C2E2</color>
+    <color name="pastel_darkblue">#6D79DB</color>
+    <color name="pastel_purple">#D074C7</color>
+    <!-- The old OG colors that were a little not legible enough -->
+    <!--<color name="pastel_red">#FF9C9C</color>-->
+    <!--<color name="pastel_orange">#F9CE9B</color>-->
+    <!--<color name="pastel_yellow">#F7E89C</color>-->
+    <!--<color name="pastel_green">#98EACB</color>-->
+    <!--<color name="pastel_blue">#7FCBE2</color>-->
+    <!--<color name="pastel_darkblue">#949CDC</color>-->
+    <!--<color name="pastel_purple">#C898C3</color>-->
+
+    <!-- flat ui colors-->
+    <color name="flatui_lightgrey_1">#ecf0f1</color>
+    <color name="flatui_lightgrey_2">#bdc3c7</color>
+    <color name="flatui_grey_1">#95a5a6</color>
+    <color name="flatui_grey_2">#7f8c8d</color>
+    <color name="flatui_red_1">#e74c3c</color>
+    <color name="flatui_red_2">#c0392b</color>
+    <color name="flatui_orange_1">#e67e22</color>
+    <color name="flatui_orange_2">#d35400</color>
+    <color name="flatui_yellow_1">#f1c40f</color>
+    <color name="flatui_yellow_2">#f39c12</color>
+    <color name="flatui_teal_1">#1abc9c</color>
+    <color name="flatui_teal_2">#16a085</color>
+    <color name="flatui_green_1">#2ecc71</color>
+    <color name="flatui_green_2">#27ae60</color>
+    <color name="flatui_blue_1">#3498db</color>
+    <color name="flatui_blue_2">#2980b9</color>
+    <color name="flatui_purple_1">#9b59b6</color>
+    <color name="flatui_purple_2">#8e44ad</color>
+    <color name="flatui_midnightblue_1">#34495e</color>
+    <color name="flatui_midnightblue_2">#2c3e50</color>
+
+    <color name="flatui_lightgrey_1_transp_50">#80ecf0f1</color>
+    <color name="flatui_lightgrey_2_transp_50">#80bdc3c7</color>
+    <color name="flatui_grey_1_transp_50">#8095a5a6</color>
+    <color name="flatui_grey_2_transp_50">#807f8c8d</color>
+    <color name="flatui_red_1_transp_50">#80e74c3c</color>
+    <color name="flatui_red_2_transp_50">#80c0392b</color>
+    <color name="flatui_orange_1_transp_50">#80e67e22</color>
+    <color name="flatui_orange_2_transp_50">#80d35400</color>
+    <color name="flatui_yellow_1_transp_50">#80f1c40f</color>
+    <color name="flatui_yellow_2_transp_50">#80f39c12</color>
+    <color name="flatui_teal_1_transp_50">#801abc9c</color>
+    <color name="flatui_teal_2_transp_50">#8016a085</color>
+    <color name="flatui_green_1_transp_50">#802ecc71</color>
+    <color name="flatui_green_2_transp_50">#8027ae60</color>
+    <color name="flatui_blue_1_transp_50">#803498db</color>
+    <color name="flatui_blue_2_transp_50">#802980b9</color>
+    <color name="flatui_purple_1_transp_50">#809b59b6</color>
+    <color name="flatui_purple_2_transp_50">#808e44ad</color>
+    <color name="flatui_midnightblue_1_transp_50">#8034495e</color>
+    <color name="flatui_midnightblue_2_transp_50">#802c3e50</color>
+
+    <color name="black_t0">#00000000</color>
+    <color name="black_t05">#0D000000</color>
+    <color name="black_t10">#1A000000</color>
+    <color name="black_t15">#26000000</color>
+    <color name="black_t20">#33000000</color>
+    <color name="black_t25">#40000000</color>
+    <color name="black_t30">#4D000000</color>
+    <color name="black_t35">#59000000</color>
+    <color name="black_t40">#66000000</color>
+    <color name="black_t45">#73000000</color>
+    <color name="black_t50">#80000000</color>
+    <color name="black_t55">#8C000000</color>
+    <color name="black_t60">#99000000</color>
+    <color name="black_t65">#A6000000</color>
+    <color name="black_t70">#B3000000</color>
+    <color name="black_t75">#BF000000</color>
+    <color name="black_t80">#CC000000</color>
+    <color name="black_t85">#D9000000</color>
+    <color name="black_t90">#E6000000</color>
+    <color name="black_t95">#F2000000</color>
+
+    <color name="white_t05">#0DFFFFFF</color>
+    <color name="white_t10">#1AFFFFFF</color>
+    <color name="white_t15">#26FFFFFF</color>
+    <color name="white_t20">#33FFFFFF</color>
+    <color name="white_t25">#40FFFFFF</color>
+    <color name="white_t30">#4DFFFFFF</color>
+    <color name="white_t35">#59FFFFFF</color>
+    <color name="white_t40">#66FFFFFF</color>
+    <color name="white_t45">#73FFFFFF</color>
+    <color name="white_t50">#80FFFFFF</color>
+    <color name="white_t55">#8CFFFFFF</color>
+    <color name="white_t60">#99FFFFFF</color>
+    <color name="white_t65">#ACFFFFFF</color>
+    <color name="white_t70">#B3FFFFFF</color>
+    <color name="white_t75">#BFFFFFFF</color>
+    <color name="white_t80">#CCFFFFFF</color>
+    <color name="white_t85">#D9FFFFFF</color>
+    <color name="white_t90">#E6FFFFFF</color>
+    <color name="white_t95">#F2FFFFFF</color>
+
+    <!-- 1 through 14 -->
+
+    <color name="wtb_05">#F2F2F2</color>
+    <color name="wtb_10">#E6E6E6</color>
+    <color name="wtb_15">#D9D9D9</color>
+    <color name="wtb_20">#CCCCCC</color>
+    <color name="wtb_25">#BFBFBF</color>
+    <color name="wtb_30">#B3B3B3</color>
+    <color name="wtb_35">#ACACAC</color>
+    <color name="wtb_40">#999999</color>
+    <color name="wtb_45">#8C8C8C</color>
+    <color name="wtb_50">#808080</color>
+    <color name="wtb_55">#737373</color>
+    <color name="wtb_60">#666666</color>
+    <color name="wtb_65">#595959</color>
+    <color name="wtb_70">#4D4D4D</color>
+    <color name="wtb_75">#404040</color>
+    <color name="wtb_80">#333333</color>
+    <color name="wtb_85">#262626</color>
+    <color name="wtb_90">#1A1A1A</color>
+    <color name="wtb_95">#0D0D0D</color>
+
+</resources>

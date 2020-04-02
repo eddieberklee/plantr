@@ -1,0 +1,86 @@
+<resources>
+
+    <style name="GodFragmentRootContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingTop">@dimen/god_fragment_padding_top</item>
+        <item name="android:paddingLeft">@dimen/god_fragment_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/god_fragment_padding_horizontal</item>
+    </style>
+
+    <style name="TabHorizontalIcon">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="customColor">@color/white</item>
+    </style>
+
+    <style name="SpaceWidth10dp">
+        <item name="android:layout_width">10dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="SpaceWidth20dp">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="SpaceHeight10dp">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">10dp</item>
+    </style>
+
+    <style name="SpaceHeight20dp">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">20dp</item>
+    </style>
+
+    <style name="SpaceWidthWeight1">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="SpaceHeightWeight1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="FloatingFullscreenDialogTheme">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="DialogTitleText">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="StandardDialogContainer_useWithCarbonView">
+        <item name="android:background">@color/white</item>
+        <item name="android:padding">@dimen/spacing_medium</item>
+        <item name="android:translationY">-30dp</item>
+        <item name="carbon_cornerRadius">@dimen/spacing_small</item>
+    </style>
+
+    <style name="StandardEditText">
+        <item name="android:background">@drawable/standard_edit_text_rounded_background</item>
+        <item name="android:paddingTop">@dimen/spacing_large</item>
+        <item name="android:paddingBottom">@dimen/spacing_large</item>
+        <item name="android:paddingLeft">@dimen/spacing_xlarge</item>
+        <item name="android:paddingRight">@dimen/spacing_xlarge</item>
+    </style>
+
+    <style name="MediumButton">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/medium_light_button_background</item>
+        <item name="android:paddingTop">@dimen/spacing_large</item>
+        <item name="android:paddingBottom">@dimen/spacing_large</item>
+        <item name="android:paddingLeft">@dimen/spacing_xlarge</item>
+        <item name="android:paddingRight">@dimen/spacing_xlarge</item>
+        <item name="android:textSize">18sp</item>
+        <item name="fontface">avenir_next_demibold</item>
+    </style>
+
+</resources>

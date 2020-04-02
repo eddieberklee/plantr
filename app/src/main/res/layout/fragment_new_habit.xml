@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    >
+
+    <View
+        android:id="@+id/black_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dialog_black_background"
+        />
+
+    <!-- Horizontal Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        >
+        <Space style="@style/SpaceWidthWeight1"/>
+        <carbon.widget.LinearLayout
+            android:id="@+id/main_dialog_container"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:orientation="vertical"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            style="@style/StandardDialogContainer_useWithCarbonView"
+            >
+            <com.compscieddy.workoutfh.ui.FontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="New Workout"
+                android:textSize="22sp"
+                android:letterSpacing="-0.05"
+                app:fontface="avenir_next_bold"
+                />
+            <Space style="@style/SpaceHeight10dp"/>
+            <com.compscieddy.workoutfh.ui.FontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="Name"
+                android:textColor="@color/standard_faded_text_color"
+                android:letterSpacing="+0.1"
+                style="@style/DialogTitleText"
+                />
+            <com.compscieddy.workoutfh.ui.FontEditText
+                android:id="@+id/new_habit_name_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Pushups, Pullups, ..."
+                android:textColorHint="@color/wtb_30"
+                app:fontface="avenir_next_medium"
+                android:inputType="textCapWords"
+                style="@style/StandardEditText"
+                />
+            <Space style="@style/SpaceHeight10dp"/>
+            <com.compscieddy.workoutfh.ui.FontTextView
+                android:id="@+id/new_habit_submit_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/medium_green_light_button_background"
+                android:text="Create"
+                android:textColor="@color/white"
+                style="@style/MediumButton"
+                />
+        </carbon.widget.LinearLayout><!-- @main_container -->
+        <Space style="@style/SpaceWidthWeight1"/>
+    </LinearLayout>
+
+
+</FrameLayout>

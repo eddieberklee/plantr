@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    style="@style/GodFragmentRootContainer"
+    >
+
+    <LinearLayout
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Space android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+        <FrameLayout
+            android:id="@+id/new_habit_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/small_light_button_background"
+            >
+            <com.compscieddy.workoutfh.ui.FontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-2dp"
+                android:text="+"
+                android:textSize="26dp"
+                app:fontface="avenir_next_regular"
+                />
+        </FrameLayout>
+    </LinearLayout>
+
+    <Space style="@style/SpaceHeight10dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/habit_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginRight="-5dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        />
+
+</LinearLayout>
