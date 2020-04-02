@@ -6,7 +6,7 @@
     android:layout_marginRight="5dp"
     >
 
-    <com.compscieddy.workoutfh.ui.FontTextView
+    <com.compscieddy.plantr.ui.FontTextView
         android:id="@+id/habit_record_count"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

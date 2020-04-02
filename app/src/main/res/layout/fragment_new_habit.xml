@@ -35,7 +35,7 @@
             android:clipToPadding="false"
             style="@style/StandardDialogContainer_useWithCarbonView"
             >
-            <com.compscieddy.workoutfh.ui.FontTextView
+            <com.compscieddy.plantr.ui.FontTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -45,7 +45,7 @@
                 app:fontface="avenir_next_bold"
                 />
             <Space style="@style/SpaceHeight10dp"/>
-            <com.compscieddy.workoutfh.ui.FontTextView
+            <com.compscieddy.plantr.ui.FontTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="4dp"
@@ -54,7 +54,7 @@
                 android:letterSpacing="+0.1"
                 style="@style/DialogTitleText"
                 />
-            <com.compscieddy.workoutfh.ui.FontEditText
+            <com.compscieddy.plantr.ui.FontEditText
                 android:id="@+id/new_habit_name_input"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
                 style="@style/StandardEditText"
                 />
             <Space style="@style/SpaceHeight10dp"/>
-            <com.compscieddy.workoutfh.ui.FontTextView
+            <com.compscieddy.plantr.ui.FontTextView
                 android:id="@+id/new_habit_submit_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

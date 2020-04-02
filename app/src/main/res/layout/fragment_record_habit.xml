@@ -24,7 +24,7 @@
         android:layout_marginBottom="18dp"
         style="@style/StandardDialogContainer_useWithCarbonView"
         >
-        <com.compscieddy.workoutfh.ui.FontEditText
+        <com.compscieddy.plantr.ui.FontEditText
             android:id="@+id/habit_count_edit_text"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -55,7 +55,7 @@
                 android:padding="14dp"
                 app:carbon_cornerRadius="99dp"
                 >
-                <com.compscieddy.workoutfh.ui.ColorImageView
+                <com.compscieddy.plantr.ui.ColorImageView
                     android:layout_width="26dp"
                     android:layout_height="26dp"
                     android:src="@drawable/ic_streamline_icon_check"

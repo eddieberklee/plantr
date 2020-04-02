@@ -28,7 +28,7 @@
             android:paddingRight="@dimen/spacing_small"
             android:paddingBottom="@dimen/spacing_small"
             >
-            <com.compscieddy.workoutfh.ui.FontTextView
+            <com.compscieddy.plantr.ui.FontTextView
                 android:id="@+id/habit_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -42,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 >
-                <com.compscieddy.workoutfh.ui.FontTextView
+                <com.compscieddy.plantr.ui.FontTextView
                     android:id="@+id/habit_count"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -67,7 +67,7 @@
             android:background="@drawable/small_dark_button_background"
             app:carbon_cornerRadius="5dp"
             >
-            <com.compscieddy.workoutfh.ui.FontTextView
+            <com.compscieddy.plantr.ui.FontTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"

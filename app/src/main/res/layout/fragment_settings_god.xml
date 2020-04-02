@@ -6,7 +6,7 @@
     style="@style/GodFragmentRootContainer"
     >
 
-    <com.compscieddy.workoutfh.ui.FontTextView
+    <com.compscieddy.plantr.ui.FontTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Welcome to the settings god fragment"
@@ -26,14 +26,14 @@
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
         >
-        <com.compscieddy.workoutfh.ui.ColorImageView
+        <com.compscieddy.plantr.ui.ColorImageView
             android:layout_width="18dp"
             android:layout_height="18dp"
             android:src="@drawable/ic_streamline_icon_logout_1_alternate"
             app:customColor="@color/white"
             />
         <Space style="@style/SpaceWidth10dp"/>
-        <com.compscieddy.workoutfh.ui.FontTextView
+        <com.compscieddy.plantr.ui.FontTextView
             android:id="@+id/logout_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

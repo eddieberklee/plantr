@@ -5,7 +5,7 @@ apply plugin: 'com.google.firebase.crashlytics'
 android {
     compileSdkVersion 29
     defaultConfig {
-        applicationId "com.compscieddy.workoutfh"
+        applicationId "com.compscieddy.plantr"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1

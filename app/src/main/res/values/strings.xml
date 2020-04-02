@@ -3,7 +3,7 @@
     <!-- Dev Keys -->
     <string name="firebase_web_client_id">267992396199-kjh6tbbkqda686rkehh7fupsinbs753m.apps.googleusercontent.com</string>
 
-    <string name="app_name">WorkoutFH</string>
+    <string name="app_name">Plantr</string>
 
     <string name="authentication_description">Create an account or login to start your workout from home.</string>
 

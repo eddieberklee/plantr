@@ -5,7 +5,7 @@
     style="@style/GodFragmentRootContainer"
     >
 
-    <com.compscieddy.workoutfh.ui.FontTextView
+    <com.compscieddy.plantr.ui.FontTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Welcome to the third god fragment"
