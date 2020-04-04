@@ -1,6 +1,4 @@
 # Plantr
 
-- Workout From Home while you're Working-From-Home (WFH).
-- Track # of pushups, pullups, etc.
-- Set goals, discover tips, buy gear.
+- Main feature is being able to take a photo with the past photo as a hazy overlay so that you can start compiling a cool living collection.
 
