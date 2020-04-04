@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Dev Keys -->
-    <string name="firebase_web_client_id">267992396199-kjh6tbbkqda686rkehh7fupsinbs753m.apps.googleusercontent.com</string>
+    <string name="firebase_web_client_id">355369084125-r2rosjcp13o31bk9p1pn7ehn31bp9osj.apps.googleusercontent.com</string>
 
     <string name="app_name">Plantr</string>
 
